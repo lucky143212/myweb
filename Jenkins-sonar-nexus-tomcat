@@ -28,7 +28,7 @@ stage('Upload War To Nexus'){
                   ], 
                   credentialsId: 'nexus3', 
                   groupId: 'in.javahome', 
-                  nexusUrl: 'http://172.31.38.120:8081/', 
+                  nexusUrl: 'http://3.112.12.192:8081/', 
                   nexusVersion: 'nexus3', 
                   protocol: 'http', 
                   repository: 'sample-releases', 
